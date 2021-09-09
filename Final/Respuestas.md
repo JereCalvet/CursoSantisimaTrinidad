@@ -17,10 +17,10 @@
 
 ```sql
 SELECT 
-       cantVentas as 'Cantidad de ventas', 
-       ganancias as 'Ganancias',
-       COUNT(bicicleta.nroSerie) as 'Cantidad de bicicletas en venta'
+      cantVentas as 'Cantidad de ventas', 
+      ganancias as 'Ganancias',
+      COUNT(bicicleta.nroSerie) as 'Cantidad de bicicletas en venta'
 FROM bicicleteria
-INNER JOIN bicicleta ON (Bicicleteria_idBicicleteria = bicicleteria.idBicicleteria)
-where bicicleteria.idBicicleteria = 2;
+INNER JOIN bicicleta ON (bicicleteria.idBicicleteria = bicicleta.Bicicleteria_idBicicleteria)
+WHERE bicicleteria.idBicicleteria = 2;
 ```
