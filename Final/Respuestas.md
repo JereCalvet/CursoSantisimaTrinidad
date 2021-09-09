@@ -1,6 +1,6 @@
 ## Ejercicio 3
 * Respuesta: 
-  - B) Calcula el precio total de las bicicletas de la bicicletería. 
+  - b) Calcula el precio total de las bicicletas de la bicicletería. 
 
 ## Ejercicio 4
 * Respuesta
